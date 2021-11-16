@@ -24,6 +24,7 @@ function solution2(k, arr) {
   for (let i = 0; i < k; i++) {
     sum += arr[i];
   }
+
   for (let i = k; i < arr.length; i++) {
     if (max < sum) {
       max = sum;
