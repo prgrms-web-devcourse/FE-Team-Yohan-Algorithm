@@ -1,4 +1,3 @@
-// Map 하나만 사용하기
 // 알파벳 순서는 상관없음 (결과만 비교)
 function solution(str1, str2) {
   let answer = 'YES';
